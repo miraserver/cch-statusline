@@ -2,7 +2,7 @@
 
 Monitor your **Claude Code Hub** statistics directly in Claude Code's statusline.
 
-## ✨ New in v1.2.4
+## ✨ New in v1.2.6
 
 - 🎨 **Multi-line statusline support** - properly displays two lines in Claude Code
 - ✨ **Emoji indicators** - added ⏱️ (5h), 📅 (weekly), 📆 (monthly) on limits line for better clarity
