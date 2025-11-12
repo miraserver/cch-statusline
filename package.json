@@ -1,0 +1,51 @@
+{
+  "name": "cch-statusline",
+  "version": "1.2.5",
+  "description": "Claude Code Hub statistics monitor for Claude Code statusline with enhanced visualization and Windows support",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "cch-statusline": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build",
+    "start": "node dist/cli.js"
+  },
+  "keywords": [
+    "claude-code",
+    "statusline",
+    "monitoring",
+    "claude-code-hub"
+  ],
+  "author": "miraserver",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miraserver/cch-statusline.git"
+  },
+  "bugs": {
+    "url": "https://github.com/miraserver/cch-statusline/issues"
+  },
+  "homepage": "https://github.com/miraserver/cch-statusline#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.0.0",
+    "dotenv": "^16.4.0",
+    "node-fetch": "^3.3.2",
+    "ora": "^8.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ]
+}
