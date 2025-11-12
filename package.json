@@ -1,6 +1,6 @@
 {
   "name": "cch-statusline",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "description": "Claude Code Hub statistics monitor for Claude Code statusline with enhanced visualization and Windows support",
   "type": "module",
   "main": "dist/index.js",
